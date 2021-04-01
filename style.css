@@ -1,0 +1,85 @@
+/*
+ * $URL: svn+ssh://svn.igoweb.org/svn/kgs/trunk/jsp/kgsMain.css $
+ * $Revision: 9281 $
+ * $Date: 2008-12-10 02:12:56 -0500 (Wed, 10 Dec 2008) $
+ *
+ * Main CSS document for KGS pages.
+ */
+
+html { background: #dddd88; color: black }
+body { background: #dddd88; color: black }
+td { vertical-align: middle; font-family: sans-serif }
+td.name { text-align: left; font-family: sans-serif }
+
+td.mainLink { font-weight: bold; font-size: large }
+
+div.block { text-align: center }
+div.img { float: right; text-align: center; font-weight: bold; clear: left }
+p.block { text-align: center }
+p.text { font-size: large; margin-left: 25%; margin-right: 25% }
+img { border-width: 0 }
+table.block { margin: 0 auto }
+
+h1 { font-family: sans-serif; text-align: center; font-size: x-large; font-weight: bold }
+h2 { font-family: sans-serif; text-align: center; font-size: large; font-weight: bold }
+h3 { font-family: sans-serif; text-align: left; font-size: large; font-weight: bold }
+h4 { font-family: sans-serif; text-align: left; font-size: medium; font-weight: bold }
+
+div.box, div.floatBox { border: thin solid black; margin: 1em 0;
+                        background: #dddd88; padding: 0 1em }
+div.floatBox { width: 30%; float: right }
+p.footnote { font-size: x-small }
+span.note { font-family: sans-serif; font-weight: normal; font-size: small }
+p.graph { font-family: sans-serif; text-align:center }
+img { border-width: 0 }
+
+table.grid { border-collapse: collapse; margin: 0 auto }
+table.grid td { border: thin solid black }
+table.grid th { border: thin solid black }
+
+label { text-align: right }
+
+div.helpIndex { margin-left: 0.5em; width: 20%; float: right;
+                font-size: small }
+div.helpIndex h3 { margin-top: 0em; margin-bottom: 0.5em }
+div.helpIndex h4 { margin-top: 0.5em; margin-bottom: 0.5em }
+p.helpSummary { margin-left: 40%; margin-right: 20%; font-size: small }
+
+div.tournData { margin-left: 0.5em; width: 30%; float: right; 
+                font-size: small }
+div.tournData h4 { margin-top: 0.5em; margin-bottom: 0.5em }
+
+/* Used for help pages */
+div#overlay div.text { position:absolute; z-index:2; visibility:
+                       visible; border: 1px solid #A00000;
+                       background-color: #FFEEEE; font-size: smaller; font-family: arial;
+                       padding: 1px 3px; color: #D00000; }
+div#overlay div.orthogLine { position:absolute; z-index:2; visibility:
+                             visible; background-color: #A00000; }
+div#overlay div.diagLine { position:absolute; z-index:2; visibility: visible; }
+
+/* Generated with https://www.bestcssbuttongenerator.com/#/26 */
+.signup-button {
+    box-shadow:inset 0px 1px 0px 0px #fff6af;
+    background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color:#ffec64;
+    border-radius:6px;
+    border:1px solid #ffaa22;
+    display:inline-block;
+    cursor:pointer;
+    color:#333333;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:6px 12px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #ffee66;
+}
+.signup-button:hover {
+    background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color:#ffab23;
+}
+.signup-button:active {
+    position:relative;
+    top:1px;
+}
